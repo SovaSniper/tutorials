@@ -4,29 +4,12 @@
 
 This summary provides an overview of the `VRFv2DirectFundingConsumer` smart contract, showcasing the direct funding approach for requesting and receiving random values from Chainlink VRF v2. The contract facilitates the generation and management of random values without the need for a subscription, demonstrating a simplified implementation for developers.
 
-## Requirements
-
-- Knowledge of Ethereum smart contract development using Remix IDE and MetaMask.
-- Familiarity with Ethereum testnets, specifically the Sepolia testnet.
-- Possession of Sepolia testnet ETH for gas.
-
 ## Create and Deploy a VRF v2 Compatible Contract
 
 ### Contract Dependencies
 
 - `VRFV2WrapperConsumerBase.sol` (Chainlink)
 - `ConfirmedOwner.sol` (Chainlink)
-
-### Deployment Steps
-
-1. Open the `VRFv2DirectFundingConsumer.sol` contract in Remix.
-2. Compile the contract on the Remix IDE.
-3. Deploy the contract on the Sepolia testnet using MetaMask and Remix.
-
-## Fund Your Contract
-
-- Acquire testnet LINK tokens.
-- Fund the contract with testnet LINK tokens (e.g., 2 LINK).
 
 ## Request Random Values
 
