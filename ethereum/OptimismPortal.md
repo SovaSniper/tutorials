@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The `OptimismPortal.sol` file is an essential component of the Optimism Layer 2 scaling solution for Ethereum. It facilitates message passing between Layer 1 (L1) and Layer 2 (L2) and is specifically designed to manage deposits and withdrawals between these two layers. The contract ensures the secure handling of messages, preventing replayability issues, and provides a comprehensive interface through `L1CrossDomainMessenger`.
+The `OptimismPortal.sol` file is an essential component of the Optimism Layer 2 scaling solution for Ethereum. It facilitates message passing between Layer 1 (L1 Ethereum) and Layer 2 (L2 Optimism) and is specifically designed to manage deposits and withdrawals between these two layers. The contract ensures the secure handling of messages, preventing replayability issues, and provides a comprehensive interface through `L1CrossDomainMessenger`.
 
 ## Contract Inheritance and Structure
 
@@ -59,4 +59,4 @@ The contract includes a `ProvenWithdrawal` struct, which is crucial for tracking
 
 ## Conclusion
 
-The `OptimismPortal` contract plays a crucial role in the Optimism network, providing the necessary infrastructure for secure and efficient cross-domain communication between L1 and L2. Developers and users should be aware of its functions, constants, and security considerations for optimal utilization.
+The `OptimismPortal` contract plays a crucial role in the Ethereum network, providing the necessary infrastructure for secure and efficient cross-domain communication between L1 and L2. Developers and users should be aware of its functions, constants, and security considerations for optimal utilization.
